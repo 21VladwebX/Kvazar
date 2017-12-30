@@ -1,0 +1,141 @@
+<p>*{
+	text-decoration: none;
+	margin: 0;
+}
+html,body{
+	height: 100%;
+}
+/*Header*/
+
+.Kvazar-logo{
+	font-size: 1.3em; 
+	color: #831089;
+	transition:  0.5s ease-in-out;
+}
+
+#star{
+	background-color: #222222	;
+	opacity: 0;
+	transition: 0.5s ease-in-out;
+}
+
+
+
+/*Body*/
+
+body{
+	background-color: #eab5f2;
+	display: flex;
+	flex-direction: column;
+
+} 
+
+.centered{
+	text-align: center;
+}
+
+#main{
+	flex-grow: 2;	
+	/*margin-top: -5% ;*/
+	background: rgb(203,96,179,1);
+	background: rgb(203,96,179,1); /* Old browsers */
+	background: -moz-linear-gradient(45deg, rgba(203,96,179,1) 2%, rgba(193,70,161,1) 13%, rgba(193,70,161,1) 38%, rgba(193,70,161,1) 47%, rgba(193,70,161,1) 59%, rgba(193,70,161,1) 59%, rgba(193,70,161,1) 66%, rgba(198,89,158,1) 88%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, rgba(203,96,179,1) 2%,rgba(193,70,161,1) 13%,rgba(193,70,161,1) 38%,rgba(193,70,161,1) 47%,rgba(193,70,161,1) 59%,rgba(193,70,161,1) 59%,rgba(193,70,161,1) 66%,rgba(198,89,158,1) 88%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, rgba(203,96,179,1) 2%,rgba(193,70,161,1) 13%,rgba(193,70,161,1) 38%,rgba(193,70,161,1) 47%,rgba(193,70,161,1) 59%,rgba(193,70,161,1) 59%,rgba(193,70,161,1) 66%,rgba(198,89,158,1) 88%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#c6599e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
+	border-radius: 0 0 100px 100px;
+}
+/*#main::after{
+	content: '';
+	margin: -1% -4% -1% -1%;
+	width: 100%;
+	height: 200px;
+	background: rgb(203,96,179,1);
+	background: rgb(203,96,179,1); 
+	background: -moz-linear-gradient(45deg, rgba(203,96,179,1) 2%, rgba(193,70,161,1) 13%, rgba(193,70,161,1) 38%, rgba(193,70,161,1) 47%, rgba(193,70,161,1) 59%, rgba(193,70,161,1) 59%, rgba(193,70,161,1) 66%, rgba(198,89,158,1) 88%); 
+	background: -webkit-linear-gradient(45deg, rgba(203,96,179,1) 2%,rgba(193,70,161,1) 13%,rgba(193,70,161,1) 38%,rgba(193,70,161,1) 47%,rgba(193,70,161,1) 59%,rgba(193,70,161,1) 59%,rgba(193,70,161,1) 66%,rgba(198,89,158,1) 88%); 
+	background: linear-gradient(45deg, rgba(203,96,179,1) 2%,rgba(193,70,161,1) 13%,rgba(193,70,161,1) 38%,rgba(193,70,161,1) 47%,rgba(193,70,161,1) 59%,rgba(193,70,161,1) 59%,rgba(193,70,161,1) 66%,rgba(198,89,158,1) 88%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#c6599e',GradientType=1 ); 
+
+	border-radius: 0 0 100px 100px;
+}*/
+.img{
+	width: 50%;
+	height: 50%;
+	border-radius: 100% ;
+}
+
+/*Footer*/
+
+#footer{	
+	width: 100%;
+	height: 40%;
+	font-size: 2em;
+}
+#footer img{
+	width: 100%;
+	height: 100%;
+	border-radius: 100px 100px 0 0 ;
+
+}
+.social{
+	position: absolute;
+	transition: 0.5s ease-in-out;
+
+}
+.twiter{
+	margin: 2% 30% 0 70%;
+}
+.facebook{
+	margin: 2% 50% 0 50%;
+}
+.vk{
+	margin: 2% 70% 0 30%;
+}
+.twiter:hover{
+	color: white;
+}
+.facebook:hover{
+	color: white;
+}
+.vk:hover{
+	color: white;
+}
+
+/*Other*/
+.up{
+	width: 40px;
+	height: 40px;
+	background: #500963;
+	border-radius: 30%;
+	margin: 41% 0% 0% 92.4%;
+	position: fixed;
+	opacity: 0;
+	transition: 0.7s ease-in-out;
+}
+
+.down{
+	width: 40px;
+	height: 40px;
+	background: #500963;
+	border-radius: 30%;
+	margin: 41% 0% 0% 92.4%;
+	position: fixed;
+	opacity: 1;
+	transform: rotate(180deg);
+	transition: 0.7s ease-in-out;
+}
+
+.shuttle_icon{
+	margin: 10% 50% 30% 25%;
+	width: 25px;
+	height: 25px;
+	color: #f2a2db;
+	-webkit-transform:rotate(270deg) ;
+	-moz-transform:rotate(270deg) ;
+	-ms-transform:rotate(270deg) ;
+	-o-transform:rotate(270deg) ;
+	transform:rotate(270deg)  ;
+}
+
+/*Media for shuttle*/	
